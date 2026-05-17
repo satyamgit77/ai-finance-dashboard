@@ -1,25 +1,32 @@
 # 💰 AI-Powered Personal Finance Dashboard
 
-Yeh ek Smart Finance Tracker application hai jo users ko unke rozana ke kharche (expenses) aur kamai (income) track karne me madad karta hai. Isme ek powerful AI Chatbot bhi hai jo aapke data ko dekh kar financial advice deta hai.
+An intelligent Personal Finance Tracker application designed to help users seamlessy monitor their daily expenses and income. Powered by Machine Learning for expense forecasting and Google's Gemini AI for personalized financial insights.
 
-## 🚀 Features
+## 🚀 Key Features
 
-- **🔐 Secure Login & Signup:** SQLite database ke sath custom authentication system.
-- **📊 Interactive Visualizations:** Plotly charts ke sath expense aur income ka shaandar analysis.
-- **🤖 Gemini AI Chatbot:** Ek personal financial assistant jo aapke database se live baatein karta hai.
-- **🔒 Secure API Handling:** `.env` file ka use karke API key ko safe aur hidden rakha gaya hai.
+- **🔐 Secure User Authentication:** A custom Signup and Login system powered by a local SQLite database.
+- **📊 Interactive Data Visualizations:** Beautiful, dynamic charts created using Plotly and Pandas to analyze spending patterns.
+- **🤖 Gemini AI Financial Chatbot:** An integrated smart assistant that securely reads user transaction data to provide real-time budget advice.
+- **🔒 Secure API Management:** Keeps sensitive API keys hidden locally using `.env` environment variables (protected via `.gitignore`).
+- **🔮 Expense Predictor:** Built-in prediction capabilities using Scikit-Learn to forecast upcoming monthly expenses.
 
-## 🛠️ Tech Stack (Kya-Kya Use Kiya Hai)
+## 🛠️ Tech Stack
 
-- **Python** (Core Language)
-- **Streamlit** (Web Interface ke liye)
-- **SQLite3** (Database ke liye)
-- **Google Gemini API (`google-genai`)** (AI Chatbot ke liye)
-- **Plotly & Pandas** (Data Analytics ke liye)
+- **Python** (Core Logic)
+- **Streamlit** (Web Interface & Dashboard)
+- **SQLite3** (Database Management)
+- **Google Gemini API (`google-genai`)** (LLM Integration)
+- **Plotly & Pandas** (Data Analytics & Visualization)
+- **Scikit-Learn** (Machine Learning Model)
 
-## 💻 Apne Computer Par Kaise Chalayein?
+## 💻 Local Installation & Setup
 
-1. Sabse pehle repository ko clone ya download karein.
-2. Sabhi zaroori libraries install karein:
-   ```bash
-   pip install -r requirements.txt
+Follow these simple steps to get this project running on your computer:
+
+### 1. Clone the Repository
+Download or clone this project folder to your local machine.
+
+### 2. Install Required Dependencies
+Open your terminal inside the project directory and run:
+```bash
+pip install -r requirements.txt
