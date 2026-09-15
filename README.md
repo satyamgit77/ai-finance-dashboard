@@ -1,4 +1,4 @@
-# 💰 AI-Powered Personal Finance Dashboard
+# FinSight - 💰 AI-Powered Personal Finance Dashboard
 
 An intelligent Personal Finance Tracker application designed to help users seamlessy monitor their daily expenses and income. Powered by Machine Learning for expense forecasting and Google's Gemini AI for personalized financial insights.
 
